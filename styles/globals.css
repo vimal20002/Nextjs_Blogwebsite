@@ -1,0 +1,155 @@
+*{
+    padding: 0 ;
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+.main_heading{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    letter-spacing: 1px;
+}
+.logo{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    color: rgb(255, 38, 0);
+    
+}
+.logo img{
+    margin-left: 10px;
+}
+
+.nav-op{
+    margin-left: 20%;
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 40px;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+}
+.op{
+    color: rgb(255, 38, 0);
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+.op:hover{
+    transform: scale(0.9);
+    transform: translateY(-5px);
+    transition: 0.8s ease-in-out;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    align-items: center;
+    margin-top: 15px;
+}
+.auth{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 20px;
+}
+a{
+    text-decoration: none;
+}
+.auth-op{
+    color: rgb(255, 38, 0);
+    cursor: pointer;
+}
+.form{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.inp,.post{
+    outline: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px;
+    color: blue;
+    letter-spacing: 2px;
+    border-radius: 16px;
+}
+.inp:focus, .post:focus{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 12px rgb(252, 119, 95);
+    transition: 0.6s;
+}
+.btn-1{
+    background-color: rgb(255, 38, 0);
+    color: white;
+    padding: 4px 14px;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-1:hover{
+    transform: scale(1.1);
+    transition: 0.7s all;
+}
+.register{
+    margin-top: 100px;
+}
+.login{
+    margin-top: 200px;
+}
+.postBox{
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 7px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 12px rgb(255, 197, 186);
+    padding: 10px;
+    margin: 10px 50px;
+    border-radius: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.post-title{
+}
+.post-val{
+    color: blue;
+}
+.userName{
+    color: rgb(253, 180, 167);
+    cursor: pointer;
+}
+.post-top{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center ;
+    column-gap: 6px ;
+}
+.allPost{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    justify-content: center;
+    align-items: center
+}
+.search-box{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
